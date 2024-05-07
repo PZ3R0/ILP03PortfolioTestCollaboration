@@ -1,0 +1,83 @@
+
+  html * {
+    line-height: 1.625; font-family: "Raleway", sans-serif; font-optical-sizing: auto;
+    text-decoration: none; color: white;
+    
+  }
+
+body {
+    background: rgb(230, 145, 145);
+}
+
+.logo {
+    font-size: 42px;
+    font-weight: 700;
+    margin: 2%;
+    margin-left: 4%
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cornerstufftr {
+    display: flex; margin-right: 2%;
+
+}
+
+footer {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;    
+
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: start;
+}
+
+.cornerstuffbl {
+    display: flex; margin-left: 2%;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cornerstuffbr {
+    display: flex; margin-right: 2%;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.arrowr {
+    border-right: 2px solid white;
+    margin-right: 0px;
+    padding-right: 0;
+    margin-left: 500%;
+
+}
+
+.arrowl {
+    border-left: 2px solid white;
+    margin-left: 0px;
+    padding-left: 0;
+}
+
+.footer-menu {
+    justify-content: space-between;
+    flex-direction: row;
+}
